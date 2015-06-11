@@ -11,6 +11,16 @@ body{
   padding:0px; 
 }
 
+.Entrada {
+  position: relative;
+  z-index: 9; 
+  margin: center;
+}
+
+.Entrada ul li{
+  text-decoration:none;
+}
+
 
 #cssmenu a{
   text-decoration:none;
@@ -30,7 +40,7 @@ body{
 
 #cssmenu *{
   position: relative;
-  z-index: 999;
+  z-index: 1;
   margin:0px;
   padding:0px;
   list-style: none;

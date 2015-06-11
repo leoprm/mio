@@ -8,8 +8,7 @@ class Entrada{
 	private $dtfecha;
 	private $querysel;
 
-	
-	($sident= NULL,$sti= NULL,$scuer = NULL,$dtfe = NULL){
+	function __construct($sident= NULL,$sti= NULL,$scuer = NULL,$dtfe = NULL){
 		$this->sidEntrada=$sident;
 		$this->stitulo=$sti;
 		$this->scuerpo=$scuer;
