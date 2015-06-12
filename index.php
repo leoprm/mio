@@ -3,11 +3,11 @@
 <head>
 	<title>Leo's videos and more</title>
     <link rel="stylesheet" href="css/styles.css">
-	<meta charset='utf-8'>
+	<meta charset='utf8_bin'>
 	<?php include ('librerias.php'); ?>
 </head>
 <body id="home">
-	<img class="bg" src="img/Seniors.JPG" />
+	<img class="bg" src="img/bg_index.JPG" />
 	<?php include('menu.php') ?>
 
 	<?php
@@ -16,12 +16,13 @@
 	While($Entradas=$oEntrada->Selecciona()){
 	?>
 	<div class="Entrada">
-	<ul>
-		<li><p></p></li><br>
-		<li><h1><?php $Entradas->Titulo(); ?></h1></li><br>
-		<li><p><?php $Entradas->Cuerpo(); ?></p></li><br>
+	
+		
+		<a  href="#"><?php echo($Entradas->Titulo()); ?></a>
+		<p><?php echo($Entradas->Fecha()); ?></p>
+		<img  src="img/Seniors.JPG"><br>
 
-	</ul>
+	
 	</div>
 	<?php
 	}

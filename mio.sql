@@ -30,4 +30,4 @@ INSERT INTO ENTRADA(TITULO,CUERPO,FECHA)
      VALUES ('La Rezaca','Todos se miraban las caras mientras veian caer el vidrio desde aquella extraña nube',NOW());
 
 INSERT INTO ENTRADA(TITULO,CUERPO,FECHA)
-     VALUES ('Calides','El tiempo no pasa mientras te miro avanzar hacia mi, me haces creer en el salto cuantico',NOW());
+     VALUES ('Calidez','El tiempo no pasa mientras te miro avanzar hacia mi, me haces creer en el salto cuantico',NOW());

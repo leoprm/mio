@@ -1,4 +1,5 @@
 <html>
+	<meta charset='utf8_bin'>
 <?php 
 class Entrada{
 

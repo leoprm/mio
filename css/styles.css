@@ -2,7 +2,7 @@
 {
   position: absolute;
   width: 100%;
-  z-index: 0; 
+  z-index: 1; 
 }
 
 body{ 
@@ -17,17 +17,28 @@ body{
   margin: center;
 }
 
-.Entrada ul li{
+.Entrada a, p {
   text-decoration:none;
+  color: white;
+}
+.Entrada img{
+  width: 40%;
+}
+.Entrada p{
+  text-align: inline;
+}
+.Entrada a{
+  font-size: 35px;
+  
 }
 
 
 #cssmenu a{
   text-decoration:none;
   color:#FFFFFF;
-  background-color: rgb(0,0,0);
+  background-color: rgb(200,0,95);
   display: block;
-  padding: 20px 12px;
+  padding: 20% 12%;
   height: 32px;
   font-size: 25px;
   margin-top: center;
@@ -41,9 +52,12 @@ body{
 #cssmenu *{
   position: relative;
   z-index: 1;
-  margin:0px;
-  padding:0px;
+  margin-left:0px;
+  padding-left:0px;
   list-style: none;
   width: 95px;
+}
+#cssmenu {
+  width: 20%;
 }
 
